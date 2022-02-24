@@ -1,0 +1,71 @@
+{
+    "name": "PickActions",
+    "maps": [
+        {
+            "name": "PickActionMap",
+            "id": "e7733987-4714-486a-8ac4-d686ce1c2224",
+            "actions": [
+                {
+                    "name": "Switch",
+                    "type": "Button",
+                    "id": "c5d6c836-2869-46a2-9915-8a2146429848",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "7449e277-4025-464c-b8f3-577ff4832132",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Picking",
+                    "type": "Button",
+                    "id": "43bd2de1-d769-4820-b477-81089542d74c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d944a920-0437-4b28-8ec2-518fb91a45e7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd115947-4c67-443c-9322-5c4032df9a23",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "016e62a9-a22c-4793-8551-3c3192168d0c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Picking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
